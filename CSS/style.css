@@ -1,0 +1,113 @@
+body{
+    background-image: url("../image/652d45b888b96496db229530_Concurso\ medio\ rural.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#inicio{
+    margin: 2% 20% 5% 20%;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px black solid;
+}
+
+.btn, .btn-mascota{
+    display: inline-block;
+}
+
+.btn-mascota{
+    background-color: rgb(97, 0, 0);
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border: 0.5px black solid;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.btn{
+    background-color: rgb(97, 0, 0);
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border: 0.5px black solid;
+    border-radius: 5px;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+.ong{
+    text-align: center;
+    padding: 0% 5% 5% 5%;
+}
+
+#gatos-adopt{
+    text-align: center;
+}
+
+#perros-adopt{
+    text-align: center;
+}
+
+.mascotas-inicio{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gato-inicio{
+    margin-left: 10%;
+    border: 0.5px black solid;
+    border-radius: 5px;
+}
+
+.perro-inicio{
+    margin-right: 10%;
+    border: 0.5px black solid;
+    border-radius: 5px;
+}
+
+.tabla-perros{
+    display: inline-table;
+    justify-content: center;
+}
+
+.tabla-perro{
+    border: 0.5px black solid;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.op-perros{
+    font-size: large;
+    font-family:fantasy;
+}
+
+.tabla-gatos{
+    display: inline-table;
+    justify-content: center;
+}
+
+.tabla-gato{
+    border: 0.5px black solid;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.op-gatos{
+    font-size: large;
+    font-family:fantasy;
+}
+
+.lista{
+    color: transparent;
+}
+
+li{
+    font-size:smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.op-inicio{
+    color: black;
+}
